@@ -11,6 +11,9 @@
     background: red;
     min-height:500px;
     min-width:480px;
+    position: relative;
+    left:40%;
+    right:40%;
 }
 
 body{
@@ -20,12 +23,12 @@ body{
 }
 
 .up-div{
-    padding:50px;
+    padding:60px;
     background:white;
 }
 
 .left{
-    padding:50px;
+    padding:60px;
     display:inline-flex;
     background: var(--cyan);
     float: left;
@@ -33,11 +36,12 @@ body{
 }
 
 .right{
-    padding:50px;
+    padding:59.5px;
     display:inline-flex;
-    background: green;
+    background: rgb(20, 163, 168);
     float: left;
     width: 50%;
+    height: 100%;
 }
 .up-div-title{
     color:var(--cyan);
@@ -79,4 +83,13 @@ body{
     border: none;
     box-shadow: 2px 2px 4px #000000;
     color:white;
+}
+
+.right-title{
+    color:white;
+    font-weight: 700;
+}
+
+.right-text{
+    color:var(--light-gray)
 }
