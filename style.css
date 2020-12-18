@@ -9,17 +9,17 @@
 
 .block{
     min-height:500px;
-    width:65%;
+    width:600px;
     align-self:center;
     justify-items: center;
     align-items: center;
     position: absolute;
 top: 50%; /* Buscamos el centro horizontal (relativo) del navegador */
 left: 50%; /* Buscamos el centro vertical (relativo) del navegador */
-width: 600 px; /* Definimos el ancho del objeto a centrar */
-height: 400px; /* Definimos el alto del objeto a centrar */
-margin-top: -270px; /* Restamos la mitad de la altura del objeto con un margin-top */
-margin-left: -380px; /* Restamos la mitad de la anchura del objeto con un margin-left */
+width: 600px; /* Definimos el ancho del objeto a centrar */
+height: 500px; /* Definimos el alto del objeto a centrar */
+margin-top: -250px; /* Restamos la mitad de la altura del objeto con un margin-top */
+margin-left: -310px; /* Restamos la mitad de la anchura del objeto con un margin-left */
 }
 
 body{
