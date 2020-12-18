@@ -7,8 +7,76 @@
 
 /*font-family: 'Karla', sans-serif;*/
 
-.container{
+.block{
     background: red;
-    height:700px;
-    width:400px;
+    min-height:500px;
+    min-width:480px;
+}
+
+body{
+    background: var(--light-gray);
+    display:inline-block;
+    font-family: Karla;
+}
+
+.up-div{
+    padding:50px;
+    background:white;
+}
+
+.left{
+    padding:50px;
+    display:inline-flex;
+    background: var(--cyan);
+    float: left;
+    width:50%;
+}
+
+.right{
+    padding:50px;
+    display:inline-flex;
+    background: green;
+    float: left;
+    width: 50%;
+}
+.up-div-title{
+    color:var(--cyan);
+    font-weight:700;
+}
+
+.up-div-subtitle{
+    color: var(--bright-yellow);
+    font-weight: 700;
+}
+
+.up-div-text{
+    color:var(--grayish-blue);
+}
+
+.left{
+    color:white;
+}
+
+.left-title{
+    font-weight: 700;
+}
+
+.price{
+    font-weight: 700;
+    font-size:30px;
+    margin-right: 10px;
+}
+
+.p-m{
+    font-weight: 400;
+}
+
+.button{
+    margin-top:20px;
+    width: 100%;
+    padding:15px;
+    background: var(--bright-yellow);
+    border: none;
+    box-shadow: 2px 2px 4px #000000;
+    color:white;
 }
