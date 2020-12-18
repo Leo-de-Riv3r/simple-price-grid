@@ -8,12 +8,18 @@
 /*font-family: 'Karla', sans-serif;*/
 
 .block{
-    background: red;
     min-height:500px;
-    min-width:480px;
-    position: relative;
-    left:40%;
-    right:40%;
+    width:65%;
+    align-self:center;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+top: 50%; /* Buscamos el centro horizontal (relativo) del navegador */
+left: 50%; /* Buscamos el centro vertical (relativo) del navegador */
+width: 600 px; /* Definimos el ancho del objeto a centrar */
+height: 400px; /* Definimos el alto del objeto a centrar */
+margin-top: -270px; /* Restamos la mitad de la altura del objeto con un margin-top */
+margin-left: -380px; /* Restamos la mitad de la anchura del objeto con un margin-left */
 }
 
 body{
@@ -23,25 +29,32 @@ body{
 }
 
 .up-div{
-    padding:60px;
+    padding:5%;
     background:white;
+    width:100%;
+    text-align: left;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 .left{
-    padding:60px;
-    display:inline-flex;
-    background: var(--cyan);
-    float: left;
-    width:50%;
-}
-
-.right{
-    padding:59.5px;
+    padding:5%;
     display:inline-flex;
     background: rgb(20, 163, 168);
     float: left;
+    width:50%;
+    border-bottom-left-radius: 12px;
+}
+
+.right{
+    padding:5%;
+    display:inline-flex;
+    background: var(--cyan);
+    float: left;
     width: 50%;
     height: 100%;
+    text-align: left;
+    border-bottom-right-radius: 12px;
 }
 .up-div-title{
     color:var(--cyan);
