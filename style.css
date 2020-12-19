@@ -9,9 +9,8 @@
 
 .block {
   height: 500px;
-  width: 600px;
-  border-radius: 20px;
-  margin-left:auto;
+  width: 690px;
+  margin-left:50%;
 }
 
 body {
