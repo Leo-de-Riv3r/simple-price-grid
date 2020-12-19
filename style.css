@@ -11,7 +11,8 @@
   height: 500px;
   width: 600px;
   border-radius: 20px;
-  margin:10% 50% 10% 50%;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 body {
