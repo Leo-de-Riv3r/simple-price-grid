@@ -37,8 +37,47 @@ body{
   font-weight: 700;
   font-size:30px;
 }
+.sub-item1{
+  font-weight: 700;
+  color:var(--bright-yellow);
+  font-size: 18px;
+}
+.text-item1{
+  color:var(--grayish-blue);
+  font-weight: 400;
+}
 .item2{
   background: var(--cyan);
+}
+.title-item2{
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+.price{
+  color:white;
+  font-weight: 700;
+  font-size: 32px;
+}
+.price-time{
+  color:rgb(198, 207, 200);
+  font-weight: 400;
+  font-size:18px;
+  align-self: center;
+  margin-left: 20px;
+}
+.text-item2{
+  color: #dbd2d2;;
+  font-weight: 400;
+  font-size:17px
+}
+button{
+  width: 100%;
+  padding: 5px;
+}
+.text-button{
+  font-weight: 700;
+  color: white;
 }
 .item3{
   background: skyblue;
