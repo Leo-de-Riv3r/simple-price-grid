@@ -21,16 +21,16 @@ body{
 
 .container{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
-  grid-template-rows: 220px 250px;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  /*grid-template-rows: 220px 250px;*/
   width: 50%;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 6%;
   /*box-shadow: 0px 1px 10px hsl(218, 22%, 67%);*/
 }
 
 .item1{
-  grid-column: span 2;
+  grid-column: 1 / -1;
   background: white;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -53,7 +53,7 @@ body{
 .item2{
   background: #2AB2AF;
   padding: 5% 5% 5% 1%;
-  border-bottom-left-radius: 10px;
+  /*border-bottom-left-radius: 10px;*/
 }
 .title-item2{
   color: white;
@@ -91,7 +91,7 @@ button{
 .item3{
   background: #4ABEBD;
   padding: 5% 5% 5% 1%;
-  border-bottom-right-radius: 10px;
+  /*border-bottom-right-radius: 10px;*/
 }
 .title-item3{
   font-weight: 700;
